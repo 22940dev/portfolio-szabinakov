@@ -1,0 +1,72 @@
+.contactContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    padding-top: 100px;
+}
+
+.contactForm {
+    background-color: rgba(250, 237, 214, 0.815);
+    display: flex;
+    flex-direction: column; 
+    margin-top: 30px;
+    width: 290px;
+    height: 420px;
+    border-radius: 4px;
+    box-shadow: 10px 1px 30px;
+}
+
+
+
+/* Details */
+
+.contactDetailsEach {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.contactDetailsEach:first-child {
+    margin-top: 30px;
+}
+
+
+.contactDetailsEach > label {
+    margin-bottom: 5px;
+    align-self: start;
+    margin-left: 20px;
+    opacity: 70%;
+    font-size: 13px;
+}
+.contactDetailsEach > input {
+    height: 20px;
+    width: 80%;
+}
+.contactDetailsEach > .formInputMessage {
+    height: 100px;
+}
+
+
+
+/* Buttons */
+
+.buttonContainer {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+.submitButtonForm, .resetButtonForm {
+    background-color: #ddd6d4;
+    opacity: 80%;
+    border: solid 1px rgb(119, 119, 119);
+    border-radius: 3px;
+    box-shadow: 1px 1px 1px;
+    width: 50px;
+    height: 20px;
+}
+
+.submitButtonForm:hover, .resetButtonForm:hover {
+    background-color: #c9bcb8;
+}

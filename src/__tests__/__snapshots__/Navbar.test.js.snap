@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navbar matches the snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="menuWrap"
+    data-testid="menuWrap"
+  >
+    <input
+      class="toggler"
+      data-testid="toggler"
+      type="checkbox"
+    />
+    <div
+      class="hamburger"
+      data-testid="hamburger"
+    >
+      <div />
+    </div>
+    <div
+      class="menu"
+      data-testid="menu"
+    >
+      <div>
+        <div>
+          <ul>
+            <li>
+              <a
+                class="navbarListElement"
+                data-testid="navbarListElementHome"
+                href="/"
+              >
+                Home
+              </a>
+            </li>
+            <li>
+              <a
+                class="navbarListElement"
+                data-testid="navbarListElementContact"
+                href="/contact"
+              >
+                Contact
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

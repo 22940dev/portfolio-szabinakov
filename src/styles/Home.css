@@ -1,0 +1,41 @@
+.introContainer {
+    display: flex;
+    flex-direction: column;
+    background-color: lavenderblush;
+    border: solid black;
+    padding-top: 100px;
+}
+
+/* Hello */
+
+h1 {
+    margin: 0px;
+    margin-bottom: 30px;
+}
+
+.helloDiv {
+    font-size: 45px;
+}
+
+
+/* My name */
+
+.myName {
+    margin: 0px;
+    margin-bottom: 40px;
+}
+.myNameDiv {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 26px;
+}
+
+
+/* Intro */
+
+.aboutContainer {
+    font-size: 20px;
+    text-align: center;
+    padding: 0px 10px 0px 9px;
+}
+
