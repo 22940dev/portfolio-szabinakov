@@ -8,7 +8,6 @@ exports[`Projects matches snapshot 1`] = `
   >
     <div
       class="card"
-      data-testid="card"
     >
       <div
         class="cardInner"
@@ -83,8 +82,8 @@ exports[`Projects matches snapshot 1`] = `
             class="imgContainer"
           >
             <img
-              alt=""
-              src=""
+              alt="Surreal Estate"
+              src="SurrealE.png"
             />
           </div>
         </div>
@@ -106,13 +105,6 @@ exports[`Projects matches snapshot 1`] = `
               target="blank"
             >
               View Source
-            </a>
-            <a
-              class="aCardLink"
-              href="https://surreal-estate-eight.vercel.app/"
-              target="blank"
-            >
-              Website
             </a>
           </div>
         </div>

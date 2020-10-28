@@ -13,7 +13,6 @@ describe('Projects', () => {
         const {getByTestId} = render (<Projects/>)
 
         expect(getByTestId('projectContainer')).toHaveClass('projectContainer')
-        expect(getByTestId('card')).toHaveClass('card')
         expect(getByTestId('bringAndShareFront')).toHaveClass('cardFront')
         expect(getByTestId('bringAndShareBack')).toHaveClass('cardBack')
         expect(getByTestId('surrealFront')).toHaveClass('cardFront')

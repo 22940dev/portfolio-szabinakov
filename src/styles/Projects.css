@@ -100,13 +100,13 @@ img {
     background-color:  rgba(200, 180, 100);
 }
 
-@media screen and (min-width: 768px) {
+/* @media screen and (min-width: 768px) {
     .projectContainer {
         margin-top: 70px;
     }
 
-} 
-
+}  */
+/* 
 @media screen and (min-width: 768px) {
     .projectContainer {
         margin-top: 70px;
@@ -118,5 +118,5 @@ img {
         width: 370px;
         height: 370px;
     }
-} 
+}  */
 

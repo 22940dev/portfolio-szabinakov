@@ -6,13 +6,14 @@ import bands from '../pictures/BandS.png'
 import pet from '../pictures/pet.png'
 import weather from '../pictures/weather.png'
 import nasa from '../pictures/nasa.png'
+import surreal from '../pictures/SurrealE.png'
 
 const Projects = () => {
 
     return (
         <div data-testid='projectContainer' className='projectContainer'>
             
-            <div data-testid='card' className='card' >
+                <div className='card' >
                 <div className='cardInner'>
 
                     <div data-testid='bringAndShareFront' className='cardFront'>
@@ -47,7 +48,7 @@ const Projects = () => {
                     <div data-testid='surrealFront' className='cardFront'>
                         <h3>Surreal Estate</h3>
                         <div className='imgContainer'>
-                            <img src='' alt=''/>
+                            <img src={surreal} alt='Surreal Estate'/>
                         </div>
                     </div>
                     <div data-testid='surrealBack' className='cardBack'>
@@ -58,12 +59,11 @@ const Projects = () => {
                         </p>
                         <div className='linksCard'>
                         <a className='aCardLink' href='https://github.com/szabinakov/surreal-estate' target='blank'>
-                            View Source</a>
-                        <a className='aCardLink' href='https://surreal-estate-eight.vercel.app/' target='blank'>
-                            Website</a>
-                        </div>
+                            View Source
+                        </a>
                     </div>
                 </div>
+            </div>
             </div>
             
 
@@ -169,7 +169,7 @@ const Projects = () => {
                 </div>
             </div>
 
-        </div>
+    </div>
     )
 }
 
