@@ -10,8 +10,9 @@ import gmail from '../pictures/gmail.png'
 
 const Footer = () => {
     return(
-        <div data-testid='footerContainer' className='footerContainer'>
+        
             <footer data-testid='footer' className='footer'>
+                <div data-testid='footerContainer' className='footerContainer'>
                 <a data-testid='footerLinkOne' className='footerLinkOne' href='https://twitter.com/szabinkov?lang=en-gb' target='blank'>
                     <img src={twitterlogo} href='www.google.com' alt='twitter'/>
                 </a>
@@ -27,8 +28,9 @@ const Footer = () => {
                 <a data-testid='footerLinkFive' className='footerLinkFive' href='mailto:szabinkov@gmail.com'>
                     <img src={gmail} alt='Gmail'/>
                 </a>
-            </footer>
-        </div>
+                </div>
+        </footer>
+        
     )
 }
 

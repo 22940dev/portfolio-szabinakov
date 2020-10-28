@@ -3,15 +3,15 @@
     flex-direction: column;
     align-items: center;
     padding-top: 30px;
+    font-weight: bold;
+    color: white;
 }
 
 .contactForm {
     background-color: rgb(0, 35, 0);
-    color: white;
-    border: solid 5px  rgba(200, 180, 100);
+    border: solid 4px  rgba(200, 180, 100);
     display: flex;
     flex-direction: column; 
-    margin-top: 20px;
     width: 300px;
     height: 420px;
     border-radius: 20px;
@@ -38,20 +38,21 @@
     margin-bottom: 5px;
     align-self: start;
     margin-left: 20px;
+    opacity: 70%;
     font-size: 13px;
 }
 .contactDetailsEach > input {
     height: 20px;
     width: 80%;
-    
 }
-.contactDetailsEach > input:hover {
-    border: solid yellow
-    
+.contactDetailsEach > input:hover,
+.contactDetailsEach > .textarea:hover {
+    border: solid rgb(223, 223, 2)
 }
 
-.contactDetailsEach > .formInputMessage {
-    height: 100px;
+.contactDetailsEach > .textarea {
+    height: 120px;
+    width: 90%;
 }
 
 
@@ -65,6 +66,7 @@
 }
 .submitButtonForm, .resetButtonForm {
     background-color: white;
+    opacity: 90%;
     border: solid 1px rgba(200, 180, 100);
     border-radius: 3px;
     box-shadow: 1px 1px 1px;
@@ -78,13 +80,13 @@
 
 @media screen and (min-width: 414px) {
     .contactForm {
-        margin-top: 100px;
+        margin-top: 30px;
     }
 }
 
 @media screen and (min-width: 768px) {
     .contactForm {
-        margin-top: 30px;
+        margin-top: 10px;
         width: 450px;
         height: 530px;
     }

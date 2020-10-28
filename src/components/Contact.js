@@ -83,13 +83,14 @@ const Contact = () => {
                 </div>
                 <div className='contactDetailsEach'>
                     <label htmlFor='message'>Message</label>
-                    <input 
+                    <textarea 
                         type='textarea'
                         data-testid='message'
                         name='message'
                         value={state.message}
-                        className='formInputMessage'
-                        onChange={onInputChange}/>
+                        className='textarea'
+                        onChange={onInputChange}>
+                    </textarea>
                 </div>
                 <div className='buttonContainer'>
                     <button 
