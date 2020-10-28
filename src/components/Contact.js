@@ -48,7 +48,7 @@ const Contact = () => {
     return(
         <div className='contactContainer'>
             {result && (
-                <p>{result.message}</p>
+                <p className='message'>{result.message}</p>
             )}
             <form className='contactForm' onSubmit={sendEmail}>
                 <div className='contactDetails'>
