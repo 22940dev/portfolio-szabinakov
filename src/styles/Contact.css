@@ -31,7 +31,6 @@ label {
     align-items: flex-start;
     margin: 10px 0px 5px 0px;
     font-size: 13px;
-    border: solid orange;
 }
 label > input {
     width: 220px;

@@ -32,7 +32,7 @@ app.post('/send', (req, res) => {
         console.log(err)
         res.status(500).send({
           success: false,
-          message: 'Something went wrong. Try again later1'
+          message: 'Something went wrong. Try again later!'
         });
       } else {
         res.send({
@@ -44,7 +44,7 @@ app.post('/send', (req, res) => {
   } catch (error) {
     res.status(500).send({
       success: false,
-      message: 'Something went wrong. Try again later2'
+      message: 'Something went wrong. Try again later!'
     });
   }
 });

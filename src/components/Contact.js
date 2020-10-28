@@ -23,7 +23,7 @@ const Contact = () => {
             setState({name:'', email:'', subject:'', message:'' })
         })
         .catch(() => {
-            setResult({ success: false, message: 'Something went wrong, Try again!3'})
+            setResult({ success: false, message: 'Something went wrong, Try again!'})
         })
     }
 
