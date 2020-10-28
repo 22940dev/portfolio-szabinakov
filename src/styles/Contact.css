@@ -59,7 +59,6 @@ label > .textarea:hover {
 }
 .submitButtonForm, .resetButtonForm {
     background-color: white;
-    opacity: 90%;
     border: solid 1px rgba(200, 180, 100);
     border-radius: 3px;
     box-shadow: 1px 1px 1px;
@@ -109,7 +108,6 @@ label > .textarea:hover {
     /* Buttons */
     
     .submitButtonForm, .resetButtonForm {
-
         width: 65px;
         height: 27px;
     }

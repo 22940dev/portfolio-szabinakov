@@ -100,8 +100,7 @@ const Contact = () => {
                         className='submitButtonForm'>
                             Send
                     </button>
-                    <div>
-                        <button 
+                    <button 
                         type='reset'
                         data-testid='resetButton'
                         className='resetButtonForm'
@@ -109,7 +108,6 @@ const Contact = () => {
                     >
                         Reset
                     </button>
-                    </div>
                 </div>
             </form>
         </div>
