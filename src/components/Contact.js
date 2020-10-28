@@ -51,8 +51,8 @@ const Contact = () => {
                 <p>{result.message}</p>
             )}
             <form className='contactForm' onSubmit={sendEmail}>
-                <div className='contactDetailsEach'>
-                    <label htmlFor='name'>Full Name</label>
+                <div className='contactDetails'>
+                    <label htmlFor='name'>Full Name
                     <input
                         data-testid='name'
                         type='text'
@@ -60,9 +60,9 @@ const Contact = () => {
                         value={state.name}
                         className='formInputName'
                         onChange={onInputChange}/>
-                </div>
-                <div className='contactDetailsEach'>
-                    <label htmlFor='email'>Email</label>
+                    </label>
+
+                    <label htmlFor='email'>Email
                     <input 
                         data-testid='email'
                         type='text'
@@ -70,9 +70,9 @@ const Contact = () => {
                         value={state.email}
                         className='formInputEmail'
                         onChange={onInputChange}/>
-                </div>
-                <div className='contactDetailsEach'>
-                    <label htmlFor='subject'>Subject</label>
+                    </label>
+
+                    <label htmlFor='subject'>Subject
                     <input 
                         type='text'
                         data-testid='subject'
@@ -80,9 +80,9 @@ const Contact = () => {
                         value={state.subject}
                         className='formInputSubject'
                         onChange={onInputChange}/>
-                </div>
-                <div className='contactDetailsEach'>
-                    <label htmlFor='message'>Message</label>
+                    </label>
+
+                    <label htmlFor='message'>Message
                     <textarea 
                         type='textarea'
                         data-testid='message'
@@ -91,6 +91,7 @@ const Contact = () => {
                         className='textarea'
                         onChange={onInputChange}>
                     </textarea>
+                    </label>
                 </div>
                 <div className='buttonContainer'>
                     <button 
@@ -99,13 +100,16 @@ const Contact = () => {
                         className='submitButtonForm'>
                             Send
                     </button>
-                    <button 
+                    <div>
+                        <button 
                         type='reset'
                         data-testid='resetButton'
                         className='resetButtonForm'
-                        onClick={resetForm}>
+                        onClick={resetForm}
+                    >
                         Reset
                     </button>
+                    </div>
                 </div>
             </form>
         </div>

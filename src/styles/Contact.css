@@ -5,6 +5,7 @@
     padding-top: 30px;
     font-weight: bold;
     color: white;
+    border: solid black;
 }
 
 .contactForm {
@@ -12,49 +13,48 @@
     border: solid 4px  rgba(200, 180, 100);
     display: flex;
     flex-direction: column; 
+    border: solid red;
     width: 300px;
     height: 420px;
     border-radius: 20px;
     box-shadow: 10px 1px 30px;
 }
 
+.contactDetails {
+    border: solid greenyellow;
 
+}
 
 /* Details */
 
-.contactDetailsEach {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 10px;
-}
 
-.contactDetailsEach:first-child {
+label:first-child {
     margin-top: 30px;
 }
 
-
-.contactDetailsEach > label {
-    margin-bottom: 5px;
-    align-self: start;
-    margin-left: 20px;
-    opacity: 70%;
+label {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 10px 0px 5px 0px;
     font-size: 13px;
+    border: solid orange;
 }
-.contactDetailsEach > input {
-    height: 20px;
-    width: 80%;
+label > input {
+    width: 220px;
+    align-self: center;
 }
-.contactDetailsEach > input:hover,
-.contactDetailsEach > .textarea:hover {
+
+label > .textarea {
+    height: 120px;
+    width: 220px;
+    align-self: center;
+}
+
+label > input:hover,
+label > .textarea:hover {
     border: solid rgb(223, 223, 2)
 }
-
-.contactDetailsEach > .textarea {
-    height: 120px;
-    width: 90%;
-}
-
 
 
 /* Buttons */
@@ -88,26 +88,27 @@
     .contactForm {
         margin-top: 10px;
         width: 450px;
-        height: 530px;
+        height: 500px;
     }
-    .contactDetailsEach {
+    .contactDetails {
         width: 370px;
         align-self: center;
         margin-bottom: 15px;
     }
 
-    .contactDetailsEach:first-child {
+    .contactDetails:first-child {
         margin-top: 30px;
     }
     
-    .contactDetailsEach > label {
+    label {
         margin-bottom: 10px;
     }
-    .contactDetailsEach > input {
+    label > input {
         width: 90%;
     }
-    .contactDetailsEach > .formInputMessage {
+    label > .textarea {
         height: 150px;
+        width: 90%;
     }
     
     
