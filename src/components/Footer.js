@@ -10,28 +10,25 @@ import gmail from '../pictures/gmail.png'
 
 const Footer = () => {
     return(
-        <div className='footerContainer'>
-        <footer>
-                    <a href='https://twitter.com/szabinkov?lang=en-gb' target='blank'>
+        <div data-testid='footerContainer' className='footerContainer'>
+            <footer data-testid='footer' className='footer'>
+                <a data-testid='footerLinkOne' className='footerLinkOne' href='https://twitter.com/szabinkov?lang=en-gb' target='blank'>
                     <img src={twitterlogo} href='www.google.com' alt='twitter'/>
-                    </a>
-
-                    <a href='https://www.instagram.com/szabinush/' target='blank'>
+                </a>
+                <a data-testid='footerLinkTwo' className='footerLinkTwo' href='https://www.instagram.com/szabinush/' target='blank'>
                     <img src={instagramlogo} alt='instagram'/>
-                    </a>
-
-                    <a href='https://www.linkedin.com/in/szabina-kov%C3%A1cs-7a0592159/' target='blank'>
+                </a>
+                <a data-testid='footerLinkThree' className='footerLinkThree' href='https://www.linkedin.com/in/szabina-kov%C3%A1cs-7a0592159/' target='blank'>
                     <img src={linkedinlogo} alt='linkedin'/>
-                    </a>
-                    <a href='https://github.com/szabinakov' target='blank'>
+                </a>
+                <a data-testid='footerLinkFour' className='footerLinkFour' href='https://github.com/szabinakov' target='blank'>
                     <img src={github} alt='Github'/>
-                    </a>
-                    <a href='mailto:szabinkov@gmail.com'>
+                </a>
+                <a data-testid='footerLinkFive' className='footerLinkFive' href='mailto:szabinkov@gmail.com'>
                     <img src={gmail} alt='Gmail'/>
-                    </a>
-
+                </a>
             </footer>
-            </div>
+        </div>
     )
 }
 

@@ -20,7 +20,7 @@ const Home = () => {
             <div data-testid='myNameDiv' className='myNameDiv'>
                 My name is Szabina!
             </div>
-            <div data-testid=' ' className='engineerContainer'>
+            <div data-testid='engineerContainer' className='engineerContainer'>
                 and I am a Software Engineer.
             </div>
             <div data-testid='longAbout' className='longAbout'>
@@ -30,7 +30,7 @@ const Home = () => {
                 Right now I am looking for my first position as a Software Engineer or any exciting projects,
                 where I can deepen my skills and gain some new one.<br/>If you have any suggestion please send me a message.  
             </div>
-            <div className='logoContainer'>
+            <div data-testid='logoContainer' className='logoContainer'>
                 <a href='https://html.com/' target='blank'>
                 <img className='logoImg' src={htmllogo} alt='HTML-logo'/>
                 </a>

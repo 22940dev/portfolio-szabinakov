@@ -7,338 +7,102 @@ exports[`Home matches the Snapshot 1`] = `
     data-testid="introContainer"
   >
     <div
-      class="helloDiv"
-      data-testid="helloDiv"
+      class="innerDiv"
     >
-      <h1>
-        Hello,
-      </h1>
-    </div>
-    <div
-      class="myNameDiv"
-      data-testid="myNameDiv"
-    >
-      <p
-        class="myName"
+      <div
+        class="helloDiv"
+        data-testid="helloDiv"
+      >
+        <h1>
+          Hello,
+        </h1>
+      </div>
+      <div
+        class="myNameDiv"
+        data-testid="myNameDiv"
       >
         My name is Szabina!
-      </p>
-    </div>
-    <div
-      class="aboutContainer"
-      data-testid="aboutContainer"
-    >
-      and I am a Software Engineer.
-    </div>
-  </div>
-  <div
-    class="projectContainer"
-    data-testid="projectContainer"
-  >
-    <div
-      class="card"
-      data-testid="card"
-    >
-      <div
-        class="cardInner"
-      >
-        <div
-          class="cardFront"
-          data-testid="bringAndShareFront"
-        >
-          <h3>
-            Bring and Share
-          </h3>
-          <div
-            class="imgContainer"
-          >
-            <img
-              alt="Bring and Share"
-              src="BandS.png"
-            />
-          </div>
-        </div>
-        <div
-          class="cardBack"
-          data-testid="bringAndShareBack"
-        >
-          <p
-            class="projectPhar"
-          >
-            This app has been a group project where I have been fully responsible to set up the API, database, and write tests. The App is allow you to create and event and add on participants with their diatry requriments. I have created the component for adding participants, and the participant list with all their details.
-          </p>
-          <div
-            class="linksCard"
-          >
-            <a
-              class="aCardLink"
-              href="https://github.com/szabinakov/Bring-and-Share"
-              target="blank"
-            >
-              Front-End
-            </a>
-            <a
-              class="aCardLink"
-              href="https://github.com/szabinakov/bring-and-share-api"
-              target="blank"
-            >
-              Back-End
-            </a>
-            <a
-              class="aCardLink"
-              href="https://bring-and-share-final-project.vercel.app/"
-              target="blank"
-            >
-              Website
-            </a>
-          </div>
-        </div>
       </div>
-    </div>
-    <div
-      class="card"
-    >
       <div
-        class="cardInner"
+        class="engineerContainer"
+        data-testid="engineerContainer"
       >
-        <div
-          class="cardFront"
-          data-testid="surrealFront"
-        >
-          <h3>
-            Surreal Estate
-          </h3>
-          <div
-            class="imgContainer"
-          >
-            <img
-              alt=""
-              src=""
-            />
-          </div>
-        </div>
-        <div
-          class="cardBack"
-          data-testid="surrealBack"
-        >
-          <p
-            class="projectPhar"
-          >
-            It is a property search engine just like Zoopla or Rightmove. There are properties, favourites and add property pages.The user is able to log in with their Facebook account. Once logged in, you are able to save properties to your favourites or remove them.
-          </p>
-          <div
-            class="linksCard"
-          >
-            <a
-              class="aCardLink"
-              href="https://github.com/szabinakov/surreal-estate"
-              target="blank"
-            >
-              View Source
-            </a>
-            <a
-              class="aCardLink"
-              href="https://surreal-estate-eight.vercel.app/"
-              target="blank"
-            >
-              Website
-            </a>
-          </div>
-        </div>
+        and I am a Software Engineer.
       </div>
-    </div>
-    <div
-      class="card"
-    >
       <div
-        class="cardInner"
+        class="longAbout"
+        data-testid="longAbout"
       >
-        <div
-          class="cardFront"
-          data-testid="weatherFront"
-        >
-          <h3>
-            Weather App
-          </h3>
-          <div
-            class="imgContainer"
-          >
-            <img
-              alt="Weather App Project"
-              src="weather.png"
-            />
-          </div>
-        </div>
-        <div
-          class="cardBack"
-          data-testid="weatherBack"
-        >
-          <p
-            class="projectPhar"
-          >
-            By using external data the app allows the user to search by cities. Once you type in the requested city it displays 5 days of weather forecast. By clicking on More Details, it gives you a more detailed description of the weather of the chosen day.
-          </p>
-          <div
-            class="linksCard"
-          >
-            <a
-              class="aCardLink"
-              href="https://github.com/szabinakov/weather-app"
-              target="blank"
-            >
-              View Source
-            </a>
-            <a
-              class="aCardLink"
-              href="https://weather-app-ochre-two.vercel.app/"
-              target="blank"
-            >
-              Website
-            </a>
-          </div>
-        </div>
+        I have just finished my coding course with Manchester codes, which I have started in March 2020. Learnt HTML, CSS, Javascript, React, Node.js, Express.js, MySQL.
+        <br />
+        Right now I am looking for my first position as a Software Engineer or any exciting projects, where I can deepen my skills and gain some new one.
+        <br />
+        If you have any suggestion please send me a message.
       </div>
-    </div>
-    <div
-      class="card"
-    >
       <div
-        class="cardInner"
+        class="logoContainer"
+        data-testid="logoContainer"
       >
-        <div
-          class="cardFront"
-          data-testid="nasaFront"
+        <a
+          href="https://html.com/"
+          target="blank"
         >
-          <h3>
-            Nasa's Picture Search
-          </h3>
-          <div
-            class="imgContainer"
-          >
-            <img
-              alt="Nasa Search Project"
-              src="nasa.png"
-            />
-          </div>
-        </div>
-        <div
-          class="cardBack"
-          data-testid="nasaBack"
+          <img
+            alt="HTML-logo"
+            class="logoImg"
+            src="HTML-logo.png"
+          />
+        </a>
+        <a
+          href="https://www.w3.org/Style/CSS/Overview.en.html"
+          target="blank"
         >
-          <p
-            class="projectPhar"
-          >
-            This is my first React web application I have built. The idea is to search images based on a query realiting to space using the NASA API.
-          </p>
-          <div
-            class="linksCard"
-          >
-            <a
-              class="aCardLink"
-              href="https://github.com/szabinakov/Nasa-picture-searchengine"
-              target="blank"
-            >
-              View Source
-            </a>
-            <a
-              class="aCardLink"
-              href="https://tech-test.vercel.app/"
-              target="blank"
-            >
-              Website
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div
-      class="card"
-    >
-      <div
-        class="cardInner"
-      >
-        <div
-          class="cardFront"
-          data-testid="cruiseFront"
+          <img
+            alt="CSS-logo"
+            class="logoImg"
+            src="CSS-logo.png"
+          />
+        </a>
+        <a
+          href="https://www.javascript.com/"
+          target="blank"
         >
-          <h3>
-            Cruise Ship
-          </h3>
-          <div
-            class="imgContainer"
-          >
-            <img
-              alt="Cruise Ship Project"
-              src="cruise.png"
-            />
-          </div>
-        </div>
-        <div
-          class="cardBack"
-          data-testid="cruiseBack"
+          <img
+            alt="Javascript-logo"
+            class="logoImg"
+            src="JS-logo.png"
+          />
+        </a>
+        <a
+          href="https://reactjs.org/"
+          target="blank"
         >
-          <p
-            class="projectPhar"
-          >
-            At this project I have built a cruise ship which is able to sail. There is a board also included which tells you the current and the next port. You are also able to add ports. It has been designed to look really oldschool. Because that is what I love the most.
-          </p>
-          <div
-            class="linksCard"
-          >
-            <a
-              class="aCardLink"
-              href="https://github.com/szabinakov/cruise-ships"
-              target="blank"
-            >
-              View Source
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div
-      class="card"
-    >
-      <div
-        class="cardInner"
-      >
-        <div
-          class="cardFront"
-          data-testid="petFront"
+          <img
+            alt="React-logo"
+            class="logoImg"
+            src="React-logo.png"
+          />
+        </a>
+        <a
+          href="https://nodejs.org/en/"
+          target="blank"
         >
-          <h3>
-            Virtual Pet
-          </h3>
-          <div
-            class="imgContainer"
-          >
-            <img
-              alt="Virtual Pet Project"
-              src="pet.png"
-            />
-          </div>
-        </div>
-        <div
-          class="cardBack"
-          data-testid="petBack"
+          <img
+            alt="Nodejs-logo"
+            class="logoImg"
+            src="Nodejs-logo.png"
+          />
+        </a>
+        <a
+          href="https://www.mysql.com/"
+          target="blank"
         >
-          <p
-            class="projectPhar"
-          >
-            I have built a Virtual Pet with JavaScript. Same principles like the good old game Tamagotchi. The Pet gets older and as it gets older, it gets hungrier and more and more unfit. You are able to take it for a walk to get back its fitness and of course feed it. However, nature is cruel and even if you take care of it on the best way the pet will D-I-E when it reaches 30 years.
-          </p>
-          <div
-            class="linksCard"
-          >
-            <a
-              class="aCardLink"
-              href="https://github.com/szabinakov/Virtual-Pet"
-              target="blank"
-            >
-              View Source
-            </a>
-          </div>
-        </div>
+          <img
+            alt="MySQL-logo"
+            class="logoImg"
+            src="MySQL-logo.png"
+          />
+        </a>
       </div>
     </div>
   </div>

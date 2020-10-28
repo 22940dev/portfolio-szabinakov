@@ -15,9 +15,8 @@ describe('Home', () => {
         expect(getByTestId('introContainer')).toHaveClass('introContainer')
         expect(getByTestId('helloDiv')).toHaveClass('helloDiv')
         expect(getByTestId('myNameDiv')).toHaveClass('myNameDiv')
-        expect(getByTestId('aboutContainer')).toHaveClass('aboutContainer')
-
-        /* from component Project */
-        expect(getByTestId('card')).toHaveClass('card')
+        expect(getByTestId('engineerContainer')).toHaveClass('engineerContainer')
+        expect(getByTestId('longAbout')).toHaveClass('longAbout')
+        expect(getByTestId('logoContainer')).toHaveClass('logoContainer')
     })
 })

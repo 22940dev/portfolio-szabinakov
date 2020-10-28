@@ -15,15 +15,15 @@ const Navbar = () => {
                         <div>
                             <ul>
                                 <li>
-                                <Link data-testid='navbarListElementHome' className='navbarListElement' to='/'>
+                                <Link data-testid='navbarListElementHome' className='navbarListElementHome' to='/'>
                                     Home</Link>
                                 </li>
                                 <li>
-                                <Link data-testid='navbarListElementContact' className='navbarListElement' to='/projects'>
+                                <Link data-testid='navbarListElementProjects' className='navbarListElementProjects' to='/projects'>
                                     Projects</Link>
                                 </li>
                                 <li>
-                                <Link data-testid='navbarListElementContact' className='navbarListElement' to='/contact'>
+                                <Link data-testid='navbarListElementContact' className='navbarListElementContact' to='/contact'>
                                     Contact</Link>
                                 </li>
                             </ul>

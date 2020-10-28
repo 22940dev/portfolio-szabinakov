@@ -13,10 +13,12 @@ describe('Footer', () => {
     it('renders all the links', () => {
         const {getByTestId} = render (<Footer/>)
 
-        expect(getByTestId('footerTestOne')).toHaveClass('footerListElement')
-        expect(getByTestId('footerTestTwo')).toHaveClass('footerListElement')
-        expect(getByTestId('footerTestThree')).toHaveClass('footerListElement')
-        expect(getByTestId('footerTestFour')).toHaveClass('footerListElement')
-        expect(getByTestId('footerTestFive')).toHaveClass('footerListElement')
+        expect(getByTestId('footerContainer')).toHaveClass('footerContainer')
+        expect(getByTestId('footer')).toHaveClass('footer')
+        expect(getByTestId('footerLinkOne')).toHaveClass('footerLinkOne')
+        expect(getByTestId('footerLinkTwo')).toHaveClass('footerLinkTwo')
+        expect(getByTestId('footerLinkThree')).toHaveClass('footerLinkThree')
+        expect(getByTestId('footerLinkFour')).toHaveClass('footerLinkFour')
+        expect(getByTestId('footerLinkFive')).toHaveClass('footerLinkFive')
     })
 })
