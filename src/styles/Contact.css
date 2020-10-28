@@ -2,18 +2,19 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 100vh;
-    padding-top: 100px;
+    padding-top: 30px;
 }
 
 .contactForm {
-    background-color: rgba(250, 237, 214, 0.815);
+    background-color: rgb(0, 35, 0);
+    color: white;
+    border: solid 5px  rgba(200, 180, 100);
     display: flex;
     flex-direction: column; 
-    margin-top: 30px;
-    width: 290px;
+    margin-top: 20px;
+    width: 300px;
     height: 420px;
-    border-radius: 4px;
+    border-radius: 20px;
     box-shadow: 10px 1px 30px;
 }
 
@@ -43,7 +44,13 @@
 .contactDetailsEach > input {
     height: 20px;
     width: 80%;
+    
 }
+.contactDetailsEach > input:hover {
+    border: solid yellow
+    
+}
+
 .contactDetailsEach > .formInputMessage {
     height: 100px;
 }
@@ -58,9 +65,9 @@
     margin-top: 30px;
 }
 .submitButtonForm, .resetButtonForm {
-    background-color: #ddd6d4;
-    opacity: 80%;
-    border: solid 1px rgb(119, 119, 119);
+    background-color: white;
+    opacity: 90%;
+    border: solid 1px rgba(200, 180, 100);
     border-radius: 3px;
     box-shadow: 1px 1px 1px;
     width: 50px;
@@ -68,5 +75,49 @@
 }
 
 .submitButtonForm:hover, .resetButtonForm:hover {
-    background-color: #c9bcb8;
+    background-color:  rgba(200, 180, 100);
+}
+
+@media screen and (min-width: 414px) {
+    .contactForm {
+        margin-top: 100px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .contactForm {
+        margin-top: 30px;
+        width: 450px;
+        height: 530px;
+    }
+    .contactDetailsEach {
+        width: 370px;
+        align-self: center;
+        margin-bottom: 15px;
+    }
+
+    .contactDetailsEach:first-child {
+        margin-top: 30px;
+    }
+    
+    .contactDetailsEach > label {
+        margin-bottom: 10px;
+    }
+    .contactDetailsEach > input {
+        width: 90%;
+    }
+    .contactDetailsEach > .formInputMessage {
+        height: 150px;
+    }
+    
+    
+    
+    /* Buttons */
+    
+    .submitButtonForm, .resetButtonForm {
+
+        width: 65px;
+        height: 27px;
+    }
+    
 }

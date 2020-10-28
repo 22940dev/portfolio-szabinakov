@@ -5,6 +5,7 @@ import Contact from './Contact'
 import Navbar from './Navbar';
 import Home from './Home'
 import Footer from './Footer'
+import Projects from './Projects'
 
 import '../styles/App.css'
 
@@ -16,6 +17,7 @@ function App() {
       <Switch>
         <Route exact path='/' component={Home}/>
         <Route path='/contact' component={Contact}/>
+        <Route path='/projects' component={Projects}/>
       </Switch>
       <Footer/>
     </div>

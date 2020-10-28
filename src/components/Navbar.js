@@ -19,6 +19,10 @@ const Navbar = () => {
                                     Home</Link>
                                 </li>
                                 <li>
+                                <Link data-testid='navbarListElementContact' className='navbarListElement' to='/projects'>
+                                    Projects</Link>
+                                </li>
+                                <li>
                                 <Link data-testid='navbarListElementContact' className='navbarListElement' to='/contact'>
                                     Contact</Link>
                                 </li>
