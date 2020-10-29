@@ -22,10 +22,10 @@ const Navbar = () => {
                                 <Link data-testid='navbarListElementProjects' className='navbarListElementProjects' to='/projects'>
                                     Projects</Link>
                                 </li>
-                                <li>
+                                {/* <li>
                                 <Link data-testid='navbarListElementContact' className='navbarListElementContact' to='/contact'>
                                     Contact</Link>
-                                </li>
+                                </li> */}
                             </ul>
                         </div>
                     </div>

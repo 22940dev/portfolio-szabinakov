@@ -1,7 +1,7 @@
 import React from 'react';
 import {Switch, Route} from 'react-router-dom'
 
-import Contact from './Contact'
+// import Contact from './Contact'
 import Navbar from './Navbar';
 import Home from './Home'
 import Footer from './Footer'
@@ -16,7 +16,7 @@ function App() {
       <Navbar />
       <Switch>
         <Route exact path='/' component={Home}/>
-        <Route path='/contact' component={Contact}/>
+        {/* <Route path='/contact' component={Contact}/> */}
         <Route path='/projects' component={Projects}/>
       </Switch>
       <Footer/>
