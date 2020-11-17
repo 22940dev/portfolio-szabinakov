@@ -1,6 +1,6 @@
 import React from "react";
 import emailjs from "emailjs-com";
-import "../styles/ContactEJS.css";
+import "../styles/Contact.css";
 
 export default function Contact() {
   function sendEmail(e) {
@@ -27,51 +27,41 @@ export default function Contact() {
     <div className="contactContainer">
       <form className="contactForm" onSubmit={sendEmail}>
         <div className="contactDetails">
+          Send me a message!
           <label htmlFor="name">
             Full Name
             <input
               data-testid="name"
               type="text"
               name="name"
-              // value={state.name}
               className="formInputName"
-              // onChange={onInputChange}
             />
           </label>
-
           <label htmlFor="email">
             Email
             <input
               data-testid="email"
               type="text"
               name="email"
-              // value={state.email}
               className="formInputEmail"
-              // onChange={onInputChange}
             />
           </label>
-
           <label htmlFor="subject">
             Subject
             <input
               type="text"
               data-testid="subject"
               name="subject"
-              // value={state.subject}
               className="formInputSubject"
-              // onChange={onInputChange}
             />
           </label>
-
           <label htmlFor="message">
             Message
             <textarea
               type="textarea"
               data-testid="message"
               name="message"
-              // value={state.message}
               className="textarea"
-              // onChange={onInputChange}
             ></textarea>
           </label>
         </div>

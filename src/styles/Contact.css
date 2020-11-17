@@ -18,6 +18,9 @@
   box-shadow: 10px 1px 30px;
 }
 
+.contactDetails {
+  text-align: center;
+}
 .message {
   color: rgb(0, 35, 0);
 }
