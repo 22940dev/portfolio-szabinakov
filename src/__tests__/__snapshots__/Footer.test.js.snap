@@ -2,13 +2,13 @@
 
 exports[`Footer matches the Snapshot 1`] = `
 <DocumentFragment>
-  <div
-    class="footerContainer"
-    data-testid="footerContainer"
+  <footer
+    class="footer"
+    data-testid="footer"
   >
-    <footer
-      class="footer"
-      data-testid="footer"
+    <div
+      class="footerContainer"
+      data-testid="footerContainer"
     >
       <a
         class="footerLinkOne"
@@ -65,7 +65,7 @@ exports[`Footer matches the Snapshot 1`] = `
           src="gmail.png"
         />
       </a>
-    </footer>
-  </div>
+    </div>
+  </footer>
 </DocumentFragment>
 `;

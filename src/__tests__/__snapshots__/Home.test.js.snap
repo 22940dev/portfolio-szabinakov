@@ -3,106 +3,52 @@
 exports[`Home matches the Snapshot 1`] = `
 <DocumentFragment>
   <div
-    class="introContainer"
-    data-testid="introContainer"
+    class="outterDiv"
   >
     <div
-      class="innerDiv"
+      class="introContainer"
+      data-testid="introContainer"
     >
       <div
-        class="helloDiv"
-        data-testid="helloDiv"
+        class="topCircle"
+        data-testid="topCircle"
       >
-        <h1>
+        <div
+          class="helloDiv"
+          data-testid="helloDiv"
+        >
           Hello,
-        </h1>
+        </div>
+        <div
+          class="myNameDiv"
+          data-testid="myNameDiv"
+        >
+          My name is Szabina!
+          <br />
+          and
+          <br />
+          I am a Software Engineer.
+        </div>
       </div>
       <div
-        class="myNameDiv"
-        data-testid="myNameDiv"
+        class="middleCircle"
+        data-testid="middleCircle"
       >
-        My name is Szabina!
+        <p
+          class="middleCircleText"
+        >
+          I have just finished my coding course with Manchester codes, which I have started in March 2020. Learnt HTML, CSS, Javascript, React, Node.js, Express.js, MySQL.
+        </p>
       </div>
       <div
-        class="engineerContainer"
-        data-testid="engineerContainer"
+        class="bottomCircle"
+        data-testid="bottomCircle"
       >
-        and I am a Software Engineer.
-      </div>
-      <div
-        class="longAbout"
-        data-testid="longAbout"
-      >
-        I have just finished my coding course with Manchester codes, which I have started in March 2020. Learnt HTML, CSS, Javascript, React, Node.js, Express.js, MySQL.
-        <br />
-        Right now I am looking for my first position as a Software Engineer or any exciting projects, where I can deepen my skills and gain some new one.
-        <br />
-        If you have any suggestion please send me a message.
-      </div>
-      <div
-        class="logoContainer"
-        data-testid="logoContainer"
-      >
-        <a
-          href="https://html.com/"
-          target="blank"
+        <p
+          class="bottomCircleText"
         >
-          <img
-            alt="HTML-logo"
-            class="logoImg"
-            src="HTML-logo.png"
-          />
-        </a>
-        <a
-          href="https://www.w3.org/Style/CSS/Overview.en.html"
-          target="blank"
-        >
-          <img
-            alt="CSS-logo"
-            class="logoImg"
-            src="CSS-logo.png"
-          />
-        </a>
-        <a
-          href="https://www.javascript.com/"
-          target="blank"
-        >
-          <img
-            alt="Javascript-logo"
-            class="logoImg"
-            src="JS-logo.png"
-          />
-        </a>
-        <a
-          href="https://reactjs.org/"
-          target="blank"
-        >
-          <img
-            alt="React-logo"
-            class="logoImg"
-            src="React-logo.png"
-          />
-        </a>
-        <a
-          href="https://nodejs.org/en/"
-          target="blank"
-        >
-          <img
-            alt="Nodejs-logo"
-            class="logoImg"
-            src="Nodejs-logo.png"
-          />
-        </a>
-        <a
-          href="https://www.mysql.com/"
-          target="blank"
-        >
-          <img
-            alt="MySQL-logo"
-            class="logoImg"
-            src="MySQL-logo.png"
-          />
-        </a>
+          Right now I am looking for my first position as a Software Engineer or any exciting projects, where I can deepen my skills and gain some new one. If you have any suggestion please send me a message.
+        </p>
       </div>
     </div>
   </div>

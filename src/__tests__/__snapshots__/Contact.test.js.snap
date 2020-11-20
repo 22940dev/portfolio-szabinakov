@@ -9,87 +9,77 @@ exports[`Contact matches the Snapshot 1`] = `
       class="contactForm"
     >
       <div
-        class="contactDetailsEach"
+        class="contactDetails"
       >
+        Send me a message!
         <label
           for="name"
         >
-          Full Name
+          <p
+            class="labelText"
+          >
+            Full Name
+          </p>
+          <input
+            class="formInputName"
+            data-testid="name"
+            name="name"
+            type="text"
+          />
         </label>
-        <input
-          class="formInputName"
-          data-testid="name"
-          name="name"
-          type="text"
-          value=""
-        />
-      </div>
-      <div
-        class="contactDetailsEach"
-      >
         <label
           for="email"
         >
-          Email
+          <p
+            class="labelText"
+          >
+            Email
+          </p>
+          <input
+            class="formInputEmail"
+            data-testid="email"
+            name="email"
+            type="text"
+          />
         </label>
-        <input
-          class="formInputEmail"
-          data-testid="email"
-          name="email"
-          type="text"
-          value=""
-        />
-      </div>
-      <div
-        class="contactDetailsEach"
-      >
         <label
           for="subject"
         >
-          Subject
+          <p
+            class="labelText"
+          >
+            Subject
+          </p>
+          <input
+            class="formInputSubject"
+            data-testid="subject"
+            name="subject"
+            type="text"
+          />
         </label>
-        <input
-          class="formInputSubject"
-          data-testid="subject"
-          name="subject"
-          type="text"
-          value=""
-        />
-      </div>
-      <div
-        class="contactDetailsEach"
-      >
         <label
           for="message"
         >
-          Message
+          <p
+            class="labelText"
+          >
+            Message
+          </p>
+          <textarea
+            class="textarea"
+            data-testid="message"
+            name="message"
+            type="textarea"
+          />
         </label>
-        <input
-          class="formInputMessage"
-          data-testid="message"
-          name="message"
-          type="textarea"
-          value=""
-        />
       </div>
-      <div
-        class="buttonContainer"
+      <button
+        class="submitButtonForm"
+        data-testid="submitButton"
+        type="submit"
       >
-        <button
-          class="submitButtonForm"
-          data-testid="submitButton"
-          type="submit"
-        >
-          Send
-        </button>
-        <button
-          class="resetButtonForm"
-          data-testid="resetButton"
-          type="reset"
-        >
-          Reset
-        </button>
-      </div>
+        Send
+      </button>
     </form>
   </div>
 </DocumentFragment>
