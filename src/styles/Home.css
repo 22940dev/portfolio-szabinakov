@@ -1,105 +1,145 @@
 .introContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+}
+
+.topCircle {
+  box-shadow: 5px 5px 15px;
+  background-color: #ff871767;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.topCircle > .helloDiv {
+  align-self: flex-start;
+  padding-left: 35px;
+  font-size: 30px;
+  font-weight: bold;
+}
+.topCircle > .myNameDiv {
+  margin-top: -10px;
+}
+
+.middleCircle {
+  box-shadow: 5px 5px 15px;
+  background-color: rgba(255, 154, 174, 0.39);
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-self: flex-end;
+  justify-content: space-evenly;
+}
+
+.middleCircleText {
+  align-self: center;
+  width: 240px;
+}
+
+.bottomCircle {
+  box-shadow: 5px 5px 15px;
+  background-color: #5fd5f362;
+  width: 275px;
+  height: 275px;
+  border-radius: 50%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.bottomCircleText {
+  align-self: center;
+  width: 208px;
+  padding: 20px;
+}
+@media screen and (min-width: 520px) {
+  .outterDiv {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    padding-top: 60px;
-
-}
-.innerDiv {
-    background-color: rgb(0, 35, 0);
-    border: solid 5px rgba(200, 180, 100);
-    color: white;
-    border-radius: 20px;
-    margin: 10px;
-}
-/* Hello */
-
-h1 {
-    margin-bottom: 20px;
-    margin: 0px;
-}
-
-.helloDiv {
-    font-size: 43px;
-}
-
-
-/* My name */
-
-.myNameDiv {
-    text-align: end;
-    font-size: 24px;
-    padding-right: 10px;
-    margin-bottom: 20px;
-}
-
-
-/* Intro */
-
-.engineerContainer {
+  }
+  .introContainer {
+    align-self: center;
+    width: 520px;
+  }
+  .topCircle {
+    width: 220px;
+    height: 220px;
+    margin-left: 60px;
+  }
+  .topCircle > .helloDiv {
+    font-size: 40px;
+  }
+  .topCircle > .myNameDiv {
     font-size: 18px;
-    text-align: left;
-    padding-left: 10px;
-}
-
-.longAbout {
-    margin-top: 80px;
-    text-align: justify;
+    line-height: 1.5em;
+    margin-bottom: 30px;
+  }
+  .middleCircle {
+    height: 280px;
+    width: 280px;
+    margin-top: -40px;
+  }
+  .middleCircle > .middleCircleText {
+    font-size: 19px;
+    line-height: 1.3em;
+  }
+  .bottomCircle {
+    margin-top: -80px;
+    height: 300px;
+    width: 300px;
     padding: 10px;
-    line-height: 25px;
-    font-size: 16px;
+  }
+  .bottomCircle > .bottomCircleText {
+    font-size: 18px;
+    line-height: 1.3em;
+    width: 300px;
+  }
 }
-
-.logoContainer {
-    visibility: hidden;
-    display: flex;
-    justify-content: center;
-}
-.logoImg {
-    width: 30px;
-    border: none;
-    margin-right: 15px;
-    margin-top: 10px;
-}
-.logoImg:hover {
-    transform: scale(2, 2);
-}
-
-
-@media screen and (min-width: 415px) {
-
-    .longAbout {
-        margin: 40px 10px 0px 10px;
-        text-align: justify;
-        line-height: 30px;
-    }
-    .logoContainer {
-        visibility: visible;
-    }
-
+@media screen and (min-width: 750px) {
+  .introContainer {
+    width: 768px;
   }
 
-
-@media screen and (min-width: 768px) {
-    .introContainer {
-        margin-top: 0px;
-    }
-    .innerDiv {
-        margin: 0px 40px 0px 40px;
-        min-width: 700px;
-        max-width: 800px;
-    }
-    .helloDiv {
-        margin-left: 30px;
-    }
-    .myNameDiv {
-        padding-right: 150px;
-    }
-    .engineerContainer {
-        padding-left: 200px;
-    }
-    .longAbout {
-        margin: 30px 30px 0px 30px;
-    }
-    
+  .topCircle {
+    width: 270px;
+    height: 270px;
+    margin-left: 80px;
   }
+  .topCircle > .helloDiv {
+    font-size: 50px;
+  }
+  .topCircle > .myNameDiv {
+    line-height: 1.5em;
+  }
+  .middleCircle {
+    height: 310px;
+    width: 310px;
+    padding: 20px;
+    margin-top: -160px;
+    margin-right: 70px;
+  }
+  .middleCircle > .middleCircleText {
+    font-size: 18px;
+    line-height: 2em;
+  }
+  .bottomCircle {
+    margin-top: -140px;
+    margin-left: 30px;
+    height: 370px;
+    width: 370px;
+    padding: 10px;
+  }
+  .bottomCircle > .bottomCircleText {
+    font-size: 18px;
+    line-height: 2em;
+    width: 370px;
+  }
+}

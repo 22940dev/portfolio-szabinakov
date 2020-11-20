@@ -1,0 +1,41 @@
+.checkoutContainer {
+  margin: 30px;
+}
+
+.checkOutIntro > h3 {
+  font-size: 28px;
+  text-align: center;
+  font-weight: normal;
+}
+.checkOutIntro > h4 {
+  font-size: 22px;
+  text-align: center;
+  font-weight: normal;
+}
+
+.logoContainer {
+  display: flex;
+  align-self: center;
+  width: 100%;
+  justify-content: center;
+  margin-top: -20px;
+}
+
+.logoContainer > a > img {
+  height: 30px;
+  width: auto;
+  padding: 5px;
+}
+.logoContainer > a > img:hover {
+  transform: scale(1.4);
+}
+/* .logoContainer > a {
+  height: 50px;
+  width: auto;
+  border: solid greenyellow;
+}
+.logoContainer > a > .logoImg {
+  height: 50px;
+  width: auto;
+  border: solid red;
+} */

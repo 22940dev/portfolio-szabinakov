@@ -1,33 +1,32 @@
 footer {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
 }
 
 .footerContainer {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    bottom: 0;
-    width: 300px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  list-style-type: none;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .footerContainer > a {
-    padding: 2px;
+  padding: 10px;
 }
 
 .footerContainer > a:hover {
-    transform: scale(2,2);
+  transform: scale(2, 2);
 }
 a > img {
-    height: 20px;
-    border: none;
+  width: 20px;
+  border: none;
 }
 
 .footerListElement {
-    padding-right: 10px;
+  padding-right: 10px;
 }

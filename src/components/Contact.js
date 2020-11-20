@@ -29,7 +29,7 @@ export default function Contact() {
         <div className="contactDetails">
           Send me a message!
           <label htmlFor="name">
-            Full Name
+            <p className="labelText">Full Name</p>
             <input
               data-testid="name"
               type="text"
@@ -38,7 +38,7 @@ export default function Contact() {
             />
           </label>
           <label htmlFor="email">
-            Email
+            <p className="labelText">Email</p>
             <input
               data-testid="email"
               type="text"
@@ -47,7 +47,7 @@ export default function Contact() {
             />
           </label>
           <label htmlFor="subject">
-            Subject
+            <p className="labelText">Subject</p>
             <input
               type="text"
               data-testid="subject"
@@ -56,7 +56,7 @@ export default function Contact() {
             />
           </label>
           <label htmlFor="message">
-            Message
+            <p className="labelText">Message</p>
             <textarea
               type="textarea"
               data-testid="message"
@@ -65,15 +65,14 @@ export default function Contact() {
             ></textarea>
           </label>
         </div>
-        <div className="buttonContainer">
-          <button
-            type="submit"
-            data-testid="submitButton"
-            className="submitButtonForm"
-          >
-            Send
-          </button>
-        </div>
+
+        <button
+          type="submit"
+          data-testid="submitButton"
+          className="submitButtonForm"
+        >
+          Send
+        </button>
       </form>
     </div>
   );
