@@ -7,7 +7,7 @@ const Home = () => {
     <>
       <div className="outterDiv">
         <div data-testid="introContainer" className="introContainer">
-          <div className="topCircle">
+          <div data-testid="topCircle" className="topCircle">
             <div data-testid="helloDiv" className="helloDiv">
               Hello,
             </div>
@@ -18,14 +18,14 @@ const Home = () => {
               <br />I am a Software Engineer.
             </div>
           </div>
-          <div className="middleCircle">
+          <div data-testid="middleCircle" className="middleCircle">
             <p className="middleCircleText">
               I have just finished my coding course with Manchester codes, which
               I have started in March 2020. Learnt HTML, CSS, Javascript, React,
               Node.js, Express.js, MySQL.
             </p>
           </div>
-          <div className="bottomCircle">
+          <div data-testid="bottomCircle" className="bottomCircle">
             <p className="bottomCircleText">
               Right now I am looking for my first position as a Software
               Engineer or any exciting projects, where I can deepen my skills
