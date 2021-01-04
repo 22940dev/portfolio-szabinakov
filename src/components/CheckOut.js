@@ -16,6 +16,7 @@ const Checkout = () => {
         <div className="checkOutIntro">
           <h3>Check out all my project by flipping the cards below!</h3>
           <h4>Tech Stack:</h4>
+          
         </div>
         <div data-testid="logoContainer" className="logoContainer">
           <a href="https://html.com/" target="blank">

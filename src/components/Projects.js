@@ -9,6 +9,7 @@ import pet from "../pictures/pet.png";
 import weather from "../pictures/weather.png";
 import nasa from "../pictures/nasa.png";
 import surreal from "../pictures/SurrealE.png";
+import spa from "../pictures/spa.png";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -17,13 +18,59 @@ import {
   faDog,
   faRocket,
   faUsers,
+  faAddressCard,
 } from "@fortawesome/free-solid-svg-icons";
+
 import { faFortAwesome } from "@fortawesome/free-brands-svg-icons";
+
 const Projects = () => {
   return (
     <>
       <Checkout />
       <div data-testid="projectContainer" className="projectContainer">
+        <div className="card">
+          <div className="cardInner">
+            <div data-testid="spaFront" className="cardFront">
+              <h3>
+                Single Page
+                <br />
+                Application
+              </h3>
+              <FontAwesomeIcon className="iconContainer" icon={faAddressCard} />
+            </div>
+
+            <div data-testid="spaFront" className="cardBack">
+              <img src={spa} alt="spa" />
+              <p className="projectPhar">
+                I have created this single page application using the data
+                from&nbsp;
+                <a href="https://reqres.in/" target="blank">
+                  reqres.in
+                </a>
+                . The app allows the user to create an account, then login and
+                view the list of users. The user is able to add or delete users
+                after login.
+              </p>
+              <div className="linksCard">
+                <a
+                  className="aCardLink"
+                  href="https://github.com/szabinakov/spa-test"
+                  target="blank"
+                >
+                  View Source
+                </a>
+                <a
+                  className="aCardLink"
+                  href="https://spa-test.vercel.app/"
+                  target="blank"
+                >
+                  Website
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <div className="card">
           <div className="cardInner">
             <div data-testid="bringAndShareFront" className="cardFront">
